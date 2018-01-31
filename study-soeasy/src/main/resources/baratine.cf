@@ -1,0 +1,7 @@
+namespace bar "com.caucho.baratine";
+watchdog_port = 6700;
+
+log_pattern = "[%d] %p{-5} {%t} %c{1}: %m";
+
+log-handler name="" level="all" path="stdout:"
+            pattern=${log_pattern};
