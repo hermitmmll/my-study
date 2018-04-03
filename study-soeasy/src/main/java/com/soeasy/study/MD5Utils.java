@@ -40,6 +40,7 @@ public class MD5Utils {
             }
             hexValue.append(Integer.toHexString(val));
         }
+	System.out.println("================");
         return hexValue.toString().toUpperCase();
 
     }
