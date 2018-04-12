@@ -6,5 +6,8 @@ package com.soeasy.pattern.visitor;
  */
 public interface Visitor {
 
+    public void visitor(NodeA nodeA);
+
+    public void visitor(NodeB nodeB);
 
 }
