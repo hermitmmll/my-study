@@ -10,5 +10,5 @@ import java.util.EventObject;
 public interface CustomEventListener extends EventListener {
 
     public void handleEvent(CustomEventObject event);
-
+    public void test();
 }
